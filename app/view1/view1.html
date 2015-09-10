@@ -1,13 +1,13 @@
 <div class="header col-xs-12">
     <h1><span class="one">GLOO</span> <span class="two">Fitness</span> <span class="three">Application</span></h1>
 </div>
-<div id="fitness-container" class="col-xs-12">
+<div id="stories-container" class="col-xs-12">
     <div class="row">
         <div class="col-xs-12 col-md-6">
             <img class="img-responsive" src="img/fitness.png" alt="Everyday is a good day to workout" />
         </div>
-        <div class="col-xs-12 col-md-6">
-            <h2 class="text-center">Save Fitness Stories</h2>
+        <div class="col-xs-12 col-md-6 section">
+            <h2 class="text-center"><span class="fa fa-book"></span> Save Fitness Stories</h2>
             <p>With our state of the art tools you can find and save any fitness articles through our files or create some from a link. </p>
 
             <ul class="list-unstyled">
@@ -54,8 +54,8 @@
         <div class="col-xs-12 col-md-6 hidden-lg hidden-md visible-sm visible-xs">
             <img class="img-responsive" src="img/deadmau5.jpg" alt="Deadmau5 podcasts" />
         </div>
-        <div class="col-xs-12 col-md-6">
-            <h2 class="text-center">Save Podcasts</h2>
+        <div class="col-xs-12 col-md-6 section">
+            <h2 class="text-center"><span class="fa fa-music"></span> Save Podcasts</h2>
             <p>
                 Find a great mix on youtube or soundcloud? With our application you can save any link to those favorite podcasts for later. Easily accessible for mobile!
             </p>
@@ -108,8 +108,8 @@
         <div class="col-xs-12 col-md-6">
             <img class="img-responsive" src="img/website.jpg" alt="Everyday is a good day to workout" />
         </div>
-        <div class="col-xs-12 col-md-6">
-            <h2 class="text-center">Save Fitness Websites</h2>
+        <div class="col-xs-12 col-md-6 section">
+            <h2 class="text-center"><span class="fa fa-bookmark"></span> Save Fitness Websites</h2>
             <p>With our state of the art tools you can find and save any fitness websites through our files or create some sites with our simple form. </p>
 
             <ul class="list-unstyled">
@@ -123,35 +123,33 @@
 
             </div>
         </div>
+        <div class="col-xs-12">
+            <table class="table table-bordered table-responsive">
+                <thead>
+                <tr>
+                    <th>Website Name</th>
+                    <th>Website Url</th>
+                    <th>Website Description</th>
+                    <th>Website Panel</th>
+                </tr>
+                </thead>
+                <tbody id="website-table">
+                <tr>
+                    <td>Men's Health</td>
+                    <td>www.menshealth.com</td>
+                    <td>Favorite fitness website</td>
+                    <td>
+                        <button class="btn btn-edit fa fa-edit edit-row"></button>
+                        <button class="btn btn-red fa fa-trash delete-row"></button>
+                    </td>
+                </tr>
+
+                </tbody>
+            </table>
+        </div>
     </div>
 </div>
-<div class="col-xs-12 tabel-container">
-    <div class="row">
-        <table class="table table-bordered">
-            <thead>
-            <tr>
-                <th>Website Name</th>
-                <th>Website Url</th>
-                <th>Website Description</th>
-                <th>Website Panel</th>
-            </tr>
-            </thead>
-            <tbody id="website-table">
-            <tr>
-                <td>Men's Health</td>
-                <td>www.menshealth.com</td>
-                <td>Favorite fitness website</td>
-                <td>
-                    <button class="btn btn-edit fa fa-edit edit-row"></button>
-                    <button class="btn btn-red fa fa-trash delete-row"></button>
-                </td>
-            </tr>
 
-            </tbody>
-        </table>
-
-    </div>
-</div>
 <div id="add-story" class="modal fade">
     <div class="modal-dialog">
         <div class="modal-content">

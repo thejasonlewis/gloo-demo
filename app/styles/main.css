@@ -23,10 +23,13 @@ body {
   background: url("../img/trailrunning.jpg") center center;
   background-size: cover;
   min-height: 400px;
+  position: relative;
 }
 .header h1 {
-  background: rgba(255, 255, 255, 0.3);
-  margin: 8% 200px;
+  background: rgba(0, 0, 0, 0.3);
+  margin: 2% 3%;
+  position: absolute;
+  bottom: 20px;
 }
 .header h1 .one {
   color: #38b3ce;
@@ -57,6 +60,12 @@ body {
 .footer p {
   font-size: 10px;
   padding: 4px 0;
+}
+.modal .modal-header h4 {
+  color: #38b3ce;
+}
+.modal .modal-header h4 .fa {
+  color: #66be61;
 }
 .btn-primary {
   background: #38b3ce;
@@ -114,4 +123,31 @@ body {
 .btn-edit:hover {
   background: #66be61;
   color: #ffffff;
+}
+#stories-container {
+  background: #f9f9f9;
+}
+#stories-container h2 {
+  color: #38b3ce;
+}
+#podcast-container {
+  background: #000000;
+  color: #ffffff;
+}
+#website-container {
+  background: #f9f9f9;
+  color: #000000;
+}
+#website-container h2 {
+  color: #38b3ce;
+}
+.section h2 {
+  margin: 6% auto 4% auto;
+}
+.section ul {
+  font-size: 16px;
+  margin: 2% 0 8% 0;
+}
+.table-responsive {
+  margin: 3% 0;
 }

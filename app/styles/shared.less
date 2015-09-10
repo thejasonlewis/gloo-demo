@@ -6,10 +6,13 @@ body {
   background: url("../img/trailrunning.jpg") center center;
   background-size: cover;
   min-height: 400px;
+  position: relative;
 
   h1 {
-    background: fade(@gloo-white, 30%);
-    margin: 8% 200px;
+    background: fade(@gloo-black, 30%);
+    margin: 2% 3%;
+    position: absolute;
+    bottom: 20px;
 
     .one {
       color: @gloo-blue;
@@ -47,5 +50,17 @@ body {
   p {
     font-size: 10px;
     padding: 4px 0;
+  }
+}
+
+.modal {
+  .modal-header{
+    h4 {
+      color: @gloo-blue;
+
+      .fa {
+        color: @gloo-green;
+      }
+    }
   }
 }
