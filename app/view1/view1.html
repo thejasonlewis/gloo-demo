@@ -1,154 +1,10 @@
 <div class="header col-xs-12">
     <h1><span class="one">GLOO</span> <span class="two">Fitness</span> <span class="three">Application</span></h1>
 </div>
-<div id="stories-container" class="col-xs-12">
-    <div class="row">
-        <div class="col-xs-12 col-md-6">
-            <img class="img-responsive" src="img/fitness.png" alt="Everyday is a good day to workout" />
-        </div>
-        <div class="col-xs-12 col-md-6 section">
-            <h2 class="text-center"><span class="fa fa-book"></span> Save Fitness Stories</h2>
-            <p>With our state of the art tools you can find and save any fitness articles through our files or create some from a link. </p>
-
-            <ul class="list-unstyled">
-                <li><span class="fa fa-mobile"></span> Stories on the go for mobile</li>
-                <li><span class="fa fa-save"></span> Save workout videos</li>
-                <li><span class="fa fa-music"></span> Save podcasts</li>
-                <li><span class="fa fa-book"></span> Add a story</li>
-            </ul>
-            <div class="col-xs-12 text-center">
-                <button class="btn btn-primary" data-toggle="modal" data-target="#add-story"><span class="fa fa-plus-circle"></span> Add a Story</button>
-
-            </div>
-        </div>
-        <div class="col-xs-12">
-            <table class="table table-bordered table-responsive">
-                <thead>
-                <tr>
-                    <th>Story Name</th>
-                    <th>Story Url</th>
-                    <th>Story Description</th>
-                    <th>Control Panel</th>
-                </tr>
-                </thead>
-                <tbody id="story-table">
-                <tr >
-                    <td>Sample Story</td>
-                    <td>samplestory.com</td>
-                    <td>This story is a sample story</td>
-                    <td>
-                        <button class="btn btn-edit fa fa-edit edit-row"></button>
-                        <button class="btn btn-red fa fa-trash delete-row"></button>
-                    </td>
-                </tr>
-
-                </tbody>
-            </table>
-
-        </div>
-    </div>
-</div>
-
-<div id="podcast-container" class="col-xs-12">
-    <div class="row">
-        <div class="col-xs-12 col-md-6 hidden-lg hidden-md visible-sm visible-xs">
-            <img class="img-responsive" src="img/deadmau5.jpg" alt="Deadmau5 podcasts" />
-        </div>
-        <div class="col-xs-12 col-md-6 section">
-            <h2 class="text-center"><span class="fa fa-music"></span> Save Podcasts</h2>
-            <p>
-                Find a great mix on youtube or soundcloud? With our application you can save any link to those favorite podcasts for later. Easily accessible for mobile!
-            </p>
-
-            <ul class="list-unstyled">
-                <li><span class="fa fa-mobile"></span> Podcasts on the go for mobile</li>
-                <li><span class="fa fa-youtube"></span> Save podcast youtube videos</li>
-                <li><span class="fa fa-music"></span> Save podcasts</li>
-                <li><span class="fa fa-book"></span> Add a unlimited podcasts</li>
-            </ul>
-            <div class="col-xs-12 text-center">
-                <button class="btn btn-primary" data-toggle="modal" data-target="#add-podcast"><span class="fa fa-plus-circle"></span> Add a Podcast</button>
-
-            </div>
-        </div>
-        <div class="col-xs-12 col-md-6 visible-lg visible-md hidden-sm hidden-xs">
-            <img class="img-responsive" src="img/deadmau5.jpg" alt="Deadmau5 podcasts" />
-        </div>
-
-        <div class="col-xs-12">
-            <table class="table table-bordered table-responsive">
-                <thead>
-                    <tr>
-                        <th>Podcast Name</th>
-                        <th>Podcast Url</th>
-                        <th>Podcast Description</th>
-                        <th>Control Panel</th>
-                    </tr>
-                </thead>
-                <tbody id="podcast-table">
-                    <tr>
-                        <td>Shark Tales</td>
-                        <td>http://www.barbaracorcoran.com/</td>
-                        <td>@Barbara Corcoran's Shark tank podcast</td>
-                        <td>
-                            <button class="btn btn-edit fa fa-edit edit-row"></button>
-                            <button class="btn btn-red fa fa-trash delete-row"></button>
-                        </td>
-                    </tr>
-
-                </tbody>
-            </table>
-        </div>
-
-    </div>
-</div>
-
-<div id="website-container" class="col-xs-12">
-    <div class="row">
-        <div class="col-xs-12 col-md-6">
-            <img class="img-responsive" src="img/website.jpg" alt="Everyday is a good day to workout" />
-        </div>
-        <div class="col-xs-12 col-md-6 section">
-            <h2 class="text-center"><span class="fa fa-bookmark"></span> Save Fitness Websites</h2>
-            <p>With our state of the art tools you can find and save any fitness websites through our files or create some sites with our simple form. </p>
-
-            <ul class="list-unstyled">
-                <li><span class="fa fa-mobile"></span> Stories on the go for mobile</li>
-                <li><span class="fa fa-save"></span> Save workout videos</li>
-                <li><span class="fa fa-music"></span> Save website urls for later</li>
-                <li><span class="fa fa-book"></span> Add a website</li>
-            </ul>
-            <div class="col-xs-12 text-center">
-                <button class="btn btn-primary" data-toggle="modal" data-target="#add-website"><span class="fa fa-plus-circle"></span> Add a Website</button>
-
-            </div>
-        </div>
-        <div class="col-xs-12">
-            <table class="table table-bordered table-responsive">
-                <thead>
-                <tr>
-                    <th>Website Name</th>
-                    <th>Website Url</th>
-                    <th>Website Description</th>
-                    <th>Website Panel</th>
-                </tr>
-                </thead>
-                <tbody id="website-table">
-                <tr>
-                    <td>Men's Health</td>
-                    <td>www.menshealth.com</td>
-                    <td>Favorite fitness website</td>
-                    <td>
-                        <button class="btn btn-edit fa fa-edit edit-row"></button>
-                        <button class="btn btn-red fa fa-trash delete-row"></button>
-                    </td>
-                </tr>
-
-                </tbody>
-            </table>
-        </div>
-    </div>
-</div>
+<div ng-include='"includes/stories.html"'></div>
+<div ng-include='"includes/podcasts.html"'></div>
+<div ng-include='"includes/website.html"'></div>
+<!--begin modals -->
 
 <div id="add-story" class="modal fade">
     <div class="modal-dialog">
@@ -198,12 +54,12 @@
                         <input type="text" class="form-control" id="website-name" placeholder="Website Name">
                     </div>
                     <div class="form-group">
-                        <label for="website-url">Url</label>
+                        <label for="website-url">Website Url</label>
                         <input type="text" class="form-control" id="website-url" placeholder="www.yourwebsitehere.com">
                     </div>
                     <div class="form-group">
                         <label for="website-description">Website Description</label>
-                        <textarea class="form-control" id="website-description" placeholder="website description"></textarea>
+                        <textarea class="form-control" id="website-description" placeholder="Website description"></textarea>
                     </div>
                 </form>
             </div>
@@ -225,14 +81,17 @@
                 <p>Do you have that favorite podcast to trail run to but can never find it on soundcloud? Well take a chance with us and add those favorite podcasts today and access them on your mobile device!</p>
                 <form>
                     <div class="form-group">
-                        <label for="podcast">Name of Podcast</label>
-                        <input type="text" class="form-control" id="podcast" placeholder="Podcast Name">
+                        <label for="podcast-name">Name of Podcast</label>
+                        <input type="text" class="form-control" id="podcast-name" placeholder="Podcast Name">
                     </div>
                     <div class="form-group">
-                        <label for="pod-url">Url</label>
-                        <input type="text" class="form-control" id="pod-url" placeholder="www.podcaste.com">
+                        <label for="podcast-url">Podcast Url</label>
+                        <input type="text" class="form-control" id="podcast-url" placeholder="www.podcast.com">
                     </div>
-
+                    <div class="form-group">
+                        <label for="podcast-description">Website Description</label>
+                        <textarea class="form-control" id="podcast-description" placeholder="Podcast description"></textarea>
+                    </div>
                 </form>
             </div>
             <div class="modal-footer">
