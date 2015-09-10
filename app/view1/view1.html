@@ -1,7 +1,7 @@
 <div class="header col-xs-12">
     <h1><span class="one">GLOO</span> <span class="two">Fitness</span> <span class="three">Application</span></h1>
 </div>
-<div class="col-xs-12">
+<div id="fitness-container" class="col-xs-12">
     <div class="row">
         <div class="col-xs-12 col-md-6">
             <img class="img-responsive" src="img/fitness.png" alt="Everyday is a good day to workout" />
@@ -21,36 +21,35 @@
 
             </div>
         </div>
-    </div>
-</div>
-<div class="col-xs-12">
-    <div class="row">
-        <table class="table table-bordered table-responsive">
-            <thead>
-            <tr>
-                <th>Story Name</th>
-                <th>Story Url</th>
-                <th>Story Description</th>
-                <th>Control Panel</th>
-            </tr>
-            </thead>
-            <tbody id="story-table">
+        <div class="col-xs-12">
+            <table class="table table-bordered table-responsive">
+                <thead>
+                <tr>
+                    <th>Story Name</th>
+                    <th>Story Url</th>
+                    <th>Story Description</th>
+                    <th>Control Panel</th>
+                </tr>
+                </thead>
+                <tbody id="story-table">
                 <tr >
                     <td>Sample Story</td>
                     <td>samplestory.com</td>
                     <td>This story is a sample story</td>
                     <td>
-                        <button class="fa fa-edit edit-row"></button>
-                        <button class="fa fa-trash delete-row"></button>
+                        <button class="btn btn-edit fa fa-edit edit-row"></button>
+                        <button class="btn btn-red fa fa-trash delete-row"></button>
                     </td>
                 </tr>
 
-            </tbody>
-        </table>
+                </tbody>
+            </table>
 
+        </div>
     </div>
 </div>
-<div class="col-xs-12">
+
+<div id="podcast-container" class="col-xs-12">
     <div class="row">
         <div class="col-xs-12 col-md-6 hidden-lg hidden-md visible-sm visible-xs">
             <img class="img-responsive" src="img/deadmau5.jpg" alt="Deadmau5 podcasts" />
@@ -76,47 +75,35 @@
             <img class="img-responsive" src="img/deadmau5.jpg" alt="Deadmau5 podcasts" />
         </div>
 
-    </div>
-</div>
-<div class="col-xs-12 table-container">
-    <div class="row">
-        <table class="table table-bordered">
-            <thead>
-            <tr>
-                <th>Podcast Name</th>
-                <th>Podcast Url</th>
-                <th>Podcast Description</th>
-                <th>Control Panel</th>
-            </tr>
-            </thead>
-            <tbody id="podcast-table">
-            <tr class="story-name">
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-            </tr>
-            <tr class="story-url">
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-            </tr>
-            <tr class="story-description">
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>@twitter</td>
-            </tr>
-            <tr>
-                <td>
-                    <button class="fa fa-edit edit-row"></button>
-                    <button class="fa fa-trash delete-row"></button>
-                </td>
-            </tr>
-            </tbody>
-        </table>
+        <div class="col-xs-12">
+            <table class="table table-bordered table-responsive">
+                <thead>
+                    <tr>
+                        <th>Podcast Name</th>
+                        <th>Podcast Url</th>
+                        <th>Podcast Description</th>
+                        <th>Control Panel</th>
+                    </tr>
+                </thead>
+                <tbody id="podcast-table">
+                    <tr>
+                        <td>Shark Tales</td>
+                        <td>http://www.barbaracorcoran.com/</td>
+                        <td>@Barbara Corcoran's Shark tank podcast</td>
+                        <td>
+                            <button class="btn btn-edit fa fa-edit edit-row"></button>
+                            <button class="btn btn-red fa fa-trash delete-row"></button>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
 
     </div>
 </div>
-<div class="col-xs-12">
+
+<div id="website-container" class="col-xs-12">
     <div class="row">
         <div class="col-xs-12 col-md-6">
             <img class="img-responsive" src="img/website.jpg" alt="Everyday is a good day to workout" />
@@ -150,15 +137,15 @@
             </tr>
             </thead>
             <tbody id="website-table">
-                <tr>
-                    <td>Men's Health</td>
-                    <td>www.menshealth.com</td>
-                    <td>Favorite fitness website</td>
-                    <td>
-                        <button class="fa fa-edit edit-row"></button>
-                        <button class="fa fa-delete delete-row"></button>
-                    </td>
-                </tr>
+            <tr>
+                <td>Men's Health</td>
+                <td>www.menshealth.com</td>
+                <td>Favorite fitness website</td>
+                <td>
+                    <button class="btn btn-edit fa fa-edit edit-row"></button>
+                    <button class="btn btn-red fa fa-trash delete-row"></button>
+                </td>
+            </tr>
 
             </tbody>
         </table>

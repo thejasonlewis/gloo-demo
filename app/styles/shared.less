@@ -1,3 +1,7 @@
+body {
+  position: relative;
+}
+
 .header {
   background: url("../img/trailrunning.jpg") center center;
   background-size: cover;
@@ -23,4 +27,25 @@
 .footer {
   background: @gloo-black;
   color: @gloo-white;
+  padding: 10px;
+
+  a {
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+
+    :hover {
+      color: @gloo-white;
+
+    }
+  }
+
+  p {
+    font-size: 10px;
+    padding: 4px 0;
+  }
 }

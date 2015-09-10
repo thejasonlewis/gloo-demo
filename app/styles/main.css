@@ -12,6 +12,13 @@
   font-weight: 100;
   margin: 3px 5px;
 }
+.navbar li a.active {
+  background: #38b3ce;
+  color: #ffffff;
+}
+body {
+  position: relative;
+}
 .header {
   background: url("../img/trailrunning.jpg") center center;
   background-size: cover;
@@ -33,6 +40,23 @@
 .footer {
   background: #000000;
   color: #ffffff;
+  padding: 10px;
+}
+.footer a {
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.footer a :hover {
+  color: #ffffff;
+}
+.footer p {
+  font-size: 10px;
+  padding: 4px 0;
 }
 .btn-primary {
   background: #38b3ce;
@@ -52,4 +76,42 @@
 .btn-primary:hover {
   background: #ffffff;
   color: #000000;
+}
+.btn-red {
+  background: transparent;
+  color: #38b3ce;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.btn-red:hover {
+  background: #ff0000;
+  color: #ffffff;
+}
+.btn-edit {
+  background: transparent;
+  color: #38b3ce;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.btn-edit:hover {
+  background: #66be61;
+  color: #ffffff;
 }

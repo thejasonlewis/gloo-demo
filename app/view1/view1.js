@@ -20,25 +20,13 @@ angular.module('myApp.view1', ['ngRoute'])
                 "<td>" + $storyName + "</td>"+
                 "<td>" + $storyUrl + "</td>"+
                 "<td>" + $storyDescription + "</td>"+
-                "<td>" + '<button class="fa fa-edit edit-row"></button>' +
-                         '<button class="fa fa-trash delete-row"></button>' +
+                "<td>" + '<button class="btn btn-edit fa fa-edit edit-row"></button>' +
+                         '<button class="btn btn-red fa fa-trash delete-row"></button>' +
                 "</td>" +
                 "</tr>"
             );
 
 
-        });
-
-
-        /* Delete Row*/
-        $('#story-table').delegate('.delete-row', 'click', function(){
-            $(this).closest('tr').remove();
-        });
-        $('#website-table').delegate('.delete-row', 'click', function(){
-            $(this).closest('tr').remove();
-        });
-        $('#podcast-table').delegate('.delete-row', 'click', function(){
-            $(this).closest('tr').remove();
         });
 
         $("#add-podcast-cta").click(function () {
@@ -51,8 +39,8 @@ angular.module('myApp.view1', ['ngRoute'])
                 "<td>" + $podcastName + "</td>"+
                 "<td>" + $podcastUrl + "</td>"+
                 "<td>" + $podcastDescription + "</td>"+
-                "<td>" + '<button class="fa fa-edit edit-row"></button>' +
-                '<button class="fa fa-trash delete-row"></button>' +
+                "<td>" + '<button class="btn btn-edit fa fa-edit edit-row"></button>' +
+                         '<button class="btn btn-red fa fa-trash delete-row"></button>' +
                 "</td>" +
                 "</tr>"
             );
@@ -69,11 +57,30 @@ angular.module('myApp.view1', ['ngRoute'])
                 "<td>" + $websiteName + "</td>"+
                 "<td>" + $websiteUrl + "</td>"+
                 "<td>" + $websiteDescription + "</td>"+
-                "<td>" + '<button class="fa fa-edit edit-row"></button>' +
-                '<button class="fa fa-trash delete-row"></button>' +
+                "<td>" + '<button class="btn btn-edit fa fa-edit edit-row"></button>' +
+                         '<button class="btn btn-red fa fa-trash delete-row"></button>' +
                 "</td>" +
                 "</tr>"
             );
 
         });
+
+
+
+
+
+        /* Delete Row*/
+        $('#story-table').delegate('.delete-row', 'click', function(){
+            $(this).closest('tr').remove();
+        });
+        $('#website-table').delegate('.delete-row', 'click', function(){
+            $(this).closest('tr').remove();
+        });
+        $('#podcast-table').delegate('.delete-row', 'click', function(){
+            $(this).closest('tr').remove();
+        });
+
+        //scrollspy
+
+        $('body').scrollspy({ target: '#gloo-nav' });
 }]);
