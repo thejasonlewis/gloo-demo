@@ -32,7 +32,24 @@ I researched Gloo and found their main colors and brought that into the applicat
 
 Each mocked up section is treated as a section for the single page app and the whole thing is responsive!
 
+Side Notes:
+The edit is not working YET, I didnt want to use a plugin, i wanted to figure it out without using one, I could
+have used knockout bindings but it wouldn't make sense to do both angular and knockout so I stuck with angular and
+jquery :/
+
+Hopefully I can show you other projects that I have worked with that use plugins and show more javascript skills in an
+in person interview soon! I am looking forward to speaking again soon!
+
+Questions:
+Did you want a mockup from a mockup application? if so I can knock that out fairly quickly.
+
+I really wanted to go above and beyond for this test and show you that I could do more and am willing to dive into something new
+and provide a working prototype. I wanted to design and implement a concept around this test and I hope you really enjoy
+playing with the prototype!
 
 Please Enjoy!
 I am looking forward to hearing feedback!
 Jason
+
+
+
