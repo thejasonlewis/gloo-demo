@@ -1,0 +1,55 @@
+.navbar {
+  background-color: #f9f9f9;
+  color: #c7c7cc;
+}
+.navbar .navbar-brand img {
+  float: left;
+  height: auto;
+  width: 80px;
+}
+.navbar .navbar-brand span {
+  float: left;
+  font-weight: 100;
+  margin: 3px 5px;
+}
+.header {
+  background: url("../img/trailrunning.jpg") center center;
+  background-size: cover;
+  min-height: 400px;
+}
+.header h1 {
+  background: rgba(255, 255, 255, 0.3);
+  margin: 8% 200px;
+}
+.header h1 .one {
+  color: #38b3ce;
+}
+.header h1 .two {
+  color: #66be61;
+}
+.header h1 .three {
+  color: #c7c7cc;
+}
+.footer {
+  background: #000000;
+  color: #ffffff;
+}
+.btn-primary {
+  background: #38b3ce;
+  color: #ffffff;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.btn-primary:hover {
+  background: #ffffff;
+  color: #000000;
+}

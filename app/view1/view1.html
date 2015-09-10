@@ -1,0 +1,259 @@
+<div class="header col-xs-12">
+    <h1><span class="one">GLOO</span> <span class="two">Fitness</span> <span class="three">Application</span></h1>
+</div>
+<div class="col-xs-12">
+    <div class="row">
+        <div class="col-xs-12 col-md-6">
+            <img class="img-responsive" src="img/fitness.png" alt="Everyday is a good day to workout" />
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <h2 class="text-center">Save Fitness Stories</h2>
+            <p>With our state of the art tools you can find and save any fitness articles through our files or create some from a link. </p>
+
+            <ul class="list-unstyled">
+                <li><span class="fa fa-mobile"></span> Stories on the go for mobile</li>
+                <li><span class="fa fa-save"></span> Save workout videos</li>
+                <li><span class="fa fa-music"></span> Save podcasts</li>
+                <li><span class="fa fa-book"></span> Add a story</li>
+            </ul>
+            <div class="col-xs-12 text-center">
+                <button class="btn btn-primary" data-toggle="modal" data-target="#add-story"><span class="fa fa-plus-circle"></span> Add a Story</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-xs-12">
+    <div class="row">
+        <table class="table table-bordered table-responsive">
+            <thead>
+            <tr>
+                <th>Story Name</th>
+                <th>Story Url</th>
+                <th>Story Description</th>
+                <th>Control Panel</th>
+            </tr>
+            </thead>
+            <tbody id="story-table">
+                <tr >
+                    <td>Sample Story</td>
+                    <td>samplestory.com</td>
+                    <td>This story is a sample story</td>
+                    <td>
+                        <button class="fa fa-edit edit-row"></button>
+                        <button class="fa fa-trash delete-row"></button>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+</div>
+<div class="col-xs-12">
+    <div class="row">
+        <div class="col-xs-12 col-md-6 hidden-lg hidden-md visible-sm visible-xs">
+            <img class="img-responsive" src="img/deadmau5.jpg" alt="Deadmau5 podcasts" />
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <h2 class="text-center">Save Podcasts</h2>
+            <p>
+                Find a great mix on youtube or soundcloud? With our application you can save any link to those favorite podcasts for later. Easily accessible for mobile!
+            </p>
+
+            <ul class="list-unstyled">
+                <li><span class="fa fa-mobile"></span> Podcasts on the go for mobile</li>
+                <li><span class="fa fa-youtube"></span> Save podcast youtube videos</li>
+                <li><span class="fa fa-music"></span> Save podcasts</li>
+                <li><span class="fa fa-book"></span> Add a unlimited podcasts</li>
+            </ul>
+            <div class="col-xs-12 text-center">
+                <button class="btn btn-primary" data-toggle="modal" data-target="#add-podcast"><span class="fa fa-plus-circle"></span> Add a Podcast</button>
+
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-6 visible-lg visible-md hidden-sm hidden-xs">
+            <img class="img-responsive" src="img/deadmau5.jpg" alt="Deadmau5 podcasts" />
+        </div>
+
+    </div>
+</div>
+<div class="col-xs-12 table-container">
+    <div class="row">
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>Podcast Name</th>
+                <th>Podcast Url</th>
+                <th>Podcast Description</th>
+                <th>Control Panel</th>
+            </tr>
+            </thead>
+            <tbody id="podcast-table">
+            <tr class="story-name">
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+            <tr class="story-url">
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr class="story-description">
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="fa fa-edit edit-row"></button>
+                    <button class="fa fa-trash delete-row"></button>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+</div>
+<div class="col-xs-12">
+    <div class="row">
+        <div class="col-xs-12 col-md-6">
+            <img class="img-responsive" src="img/website.jpg" alt="Everyday is a good day to workout" />
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <h2 class="text-center">Save Fitness Websites</h2>
+            <p>With our state of the art tools you can find and save any fitness websites through our files or create some sites with our simple form. </p>
+
+            <ul class="list-unstyled">
+                <li><span class="fa fa-mobile"></span> Stories on the go for mobile</li>
+                <li><span class="fa fa-save"></span> Save workout videos</li>
+                <li><span class="fa fa-music"></span> Save website urls for later</li>
+                <li><span class="fa fa-book"></span> Add a website</li>
+            </ul>
+            <div class="col-xs-12 text-center">
+                <button class="btn btn-primary" data-toggle="modal" data-target="#add-website"><span class="fa fa-plus-circle"></span> Add a Website</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-xs-12 tabel-container">
+    <div class="row">
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>Website Name</th>
+                <th>Website Url</th>
+                <th>Website Description</th>
+                <th>Website Panel</th>
+            </tr>
+            </thead>
+            <tbody id="website-table">
+                <tr>
+                    <td>Men's Health</td>
+                    <td>www.menshealth.com</td>
+                    <td>Favorite fitness website</td>
+                    <td>
+                        <button class="fa fa-edit edit-row"></button>
+                        <button class="fa fa-delete delete-row"></button>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+</div>
+<div id="add-story" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title"><span class="fa fa-book"></span> Add a Story</h4>
+            </div>
+            <div class="modal-body">
+                <p>Do you have favorite success stories you want to bookmark for when you aren't seeing those results you want to see or maybe you want to save all of those awesome workouts for when your routine gets boring? Simply fill out the form and we will add that motivation story for you.</p>
+                <form>
+                    <div class="form-group">
+                        <label for="story-name">Story Name</label>
+                        <input type="text" class="form-control" id="story-name" placeholder="Story Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="story-url">Url</label>
+                        <input type="text" class="form-control" id="story-url" placeholder="www.story.com"/>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="story-description">Story Description</label>
+                        <textarea class="form-control" id="story-description" placeholder="story description"></textarea>
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" id="add-story-cta" class="btn btn-primary" data-dismiss="modal"><span class="fa fa-plus-circle"></span> Add Story</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div id="add-website" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title"><span class="fa fa-bookmark"></span> Add a Website</h4>
+            </div>
+            <div class="modal-body">
+                <p>Adding bookmarks just got easier! Just fill out the form below and click submit and watch it populate.</p>
+                <form>
+                    <div class="form-group">
+                        <label for="website-name">Name of Website</label>
+                        <input type="text" class="form-control" id="website-name" placeholder="Website Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="website-url">Url</label>
+                        <input type="text" class="form-control" id="website-url" placeholder="www.yourwebsitehere.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="website-description">Website Description</label>
+                        <textarea class="form-control" id="website-description" placeholder="website description"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" id="add-website-cta" class="btn btn-primary" data-dismiss="modal">Add Website</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div id="add-podcast" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title"><span class="fa fa-music"></span> Add a Podcast</h4>
+            </div>
+            <div class="modal-body">
+                <p>Do you have that favorite podcast to trail run to but can never find it on soundcloud? Well take a chance with us and add those favorite podcasts today and access them on your mobile device!</p>
+                <form>
+                    <div class="form-group">
+                        <label for="podcast">Name of Podcast</label>
+                        <input type="text" class="form-control" id="podcast" placeholder="Podcast Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="pod-url">Url</label>
+                        <input type="text" class="form-control" id="pod-url" placeholder="www.podcaste.com">
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" id="add-podcast-cta" class="btn btn-primary" data-dismiss="modal">Add Podcast</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
