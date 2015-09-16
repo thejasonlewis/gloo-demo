@@ -79,6 +79,16 @@ angular.module('myApp.view1', ['ngRoute'])
            //show save button
            //on save click  rewrite the table cells
 
+            $(this).closest('tr').addClass('edit-row');
+
+            $('.edit-row td').each(function(i){
+                $(this).html();
+                console.log($(this).html());
+                $(this).append(
+                    "<input type='text' class='edit-val'>"
+                );
+            });
+
 
         });
 
