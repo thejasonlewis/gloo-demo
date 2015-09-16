@@ -65,22 +65,26 @@ angular.module('myApp.view1', ['ngRoute'])
 
         });
 
+        //delete row
 
-
-
-
-        /* Delete Row*/
-        $('#story-table').delegate('.delete-row', 'click', function(){
+        $(document).on('click', '.delete-row', function () {
             $(this).closest('tr').remove();
-        });
-        $('#website-table').delegate('.delete-row', 'click', function(){
-            $(this).closest('tr').remove();
-        });
-        $('#podcast-table').delegate('.delete-row', 'click', function(){
-            $(this).closest('tr').remove();
+            return false;
         });
 
-        //scrollspy
+        //edit row
+        $(document).on('click', '.edit-row', function () {
+           //on edit click grab values
+           //paste them into input fields
+           //show save button
+           //on save click  rewrite the table cells
+
+
+        });
+
 
         $('body').scrollspy({ target: '#gloo-nav' });
+
+
+
 }]);
